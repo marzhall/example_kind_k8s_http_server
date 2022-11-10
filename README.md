@@ -18,7 +18,7 @@ kubectl apply -f kubes/httptest
 # then check your k8s server to see if the application is being
 # served on http port 80
 
-wget <kubes_server_ip>:80
+wget localhost:80
 
 ```
 
